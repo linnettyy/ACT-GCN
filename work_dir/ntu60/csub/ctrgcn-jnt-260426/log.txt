@@ -1,0 +1,22 @@
+[ Wed Apr 22 13:56:13 2026 ] using warm up, epoch: 5
+[ Wed Apr 22 14:11:08 2026 ] Parameters:
+{'work_dir': 'work_dir/ntu60/csub/ctrgcn-jnt-260426', 'model_saved_name': 'work_dir/ntu60/csub/ctrgcn-jnt-260426/runs', 'config': 'config/nturgbd-cross-subject/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 32, 'train_feeder_args': {'data_path': '/root/autodl-tmp/data/ntu60/NTU60_CS.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 64, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}, 'test_feeder_args': {'data_path': '/root/autodl-tmp/data/ntu60/NTU60_CS.npz', 'split': 'test', 'window_size': 64, 'p_interval': [0.95], 'vel': False, 'bone': False, 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [35, 55], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0004, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Wed Apr 22 14:11:08 2026 ] # Parameters: 1446672
+[ Wed Apr 22 14:11:08 2026 ] Training epoch: 1
+[ Wed Apr 22 16:00:00 2026 ] using warm up, epoch: 5
+[ Wed Apr 22 16:00:16 2026 ] Parameters:
+{'work_dir': 'work_dir/ntu60/csub/ctrgcn-jnt-260426', 'model_saved_name': 'work_dir/ntu60/csub/ctrgcn-jnt-260426/runs', 'config': 'config/nturgbd-cross-subject/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 32, 'train_feeder_args': {'data_path': '/root/autodl-tmp/data/ntu60/NTU60_CS.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 64, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}, 'test_feeder_args': {'data_path': '/root/autodl-tmp/data/ntu60/NTU60_CS.npz', 'split': 'test', 'window_size': 64, 'p_interval': [0.95], 'vel': False, 'bone': False, 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [35, 55], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0004, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Wed Apr 22 16:00:16 2026 ] # Parameters: 1446672
+[ Wed Apr 22 16:00:16 2026 ] Training epoch: 1
+[ Wed Apr 22 16:09:52 2026 ] 	Mean training loss: 2.5489.  Mean training acc: 30.69%.
+[ Wed Apr 22 16:09:52 2026 ] 	Time consumption: [Data]02%, [Network]98%
+[ Wed Apr 22 16:09:52 2026 ] Eval epoch: 1
+[ Wed Apr 22 16:13:00 2026 ] 	Mean test loss of 258 batches: 1.6618608689123346.
+[ Wed Apr 22 16:13:00 2026 ] 	Top1: 52.64%
+[ Wed Apr 22 16:13:00 2026 ] 	Top5: 85.79%
+[ Wed Apr 22 16:13:00 2026 ] Training epoch: 2
+[ Wed Apr 22 16:23:11 2026 ] 	Mean training loss: 1.5904.  Mean training acc: 52.15%.
+[ Wed Apr 22 16:23:11 2026 ] 	Time consumption: [Data]02%, [Network]98%
+[ Wed Apr 22 16:23:11 2026 ] Eval epoch: 2
