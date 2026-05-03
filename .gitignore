@@ -1,0 +1,30 @@
+# conda marker files
+__glibc*
+ld_impl_linux*
+python[version*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / checkpoints
+*.pt
+*.pkl
+*.npy
+*.npz
+
+# Logs
+*.log
+runs/
+
+# IDE
+.idea/
+.vscode/
